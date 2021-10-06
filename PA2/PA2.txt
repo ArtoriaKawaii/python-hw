@@ -1,0 +1,94 @@
+                                   Python
+                         Programming Assignment #2
+
+Due date: Tuesday, March 30th, at 11:59pm.
+Submission rules: Submit your modified connect4.py file to the cyberuniversity.
+
+When you downloaded this file, you also saw a file named connect4.py. The first
+step of explaining this assignment is to import that file into Python, and then
+to run help on the module:
+   % python3
+   Python 3.8.7 (default, Jan 31 2021, 21:50:45)
+   [GCC 10.2.0] on cygwin
+   Type "help", "copyright", "credits" or "license" for more information.
+   >>> import connect4
+   >>> help (connect4)
+
+When you do that, you will see a lot of text for you to read. Do that, then
+come back here...
+
+So, now that you have come back, we can talk about how the module should work.
+Consider this behavior:
+
+   >>> connect4.insert(4)
+   >>> connect4.insert(4)
+   >>> connect4.insert(4)
+   >>> connect4.insert(5)
+   >>> connect4.insert(5)
+   >>> connect4.insert(6)
+   >>> connect4.printBoard()
+
+   [' ', ' ', ' ', ' ', ' ', ' ', ' ']
+
+   [' ', ' ', ' ', ' ', ' ', ' ', ' ']
+
+   [' ', ' ', ' ', ' ', ' ', ' ', ' ']
+
+   [' ', ' ', ' ', '○', ' ', ' ', ' ']
+
+   [' ', ' ', ' ', '●', '○', ' ', ' ']
+
+   [' ', ' ', ' ', '○', '●', '●', ' ']
+   ===================================
+
+   >>> connect4.B=connect4.resetBoard()
+   >>> connect4.printBoard()
+
+   [' ', ' ', ' ', ' ', ' ', ' ', ' ']
+
+   [' ', ' ', ' ', ' ', ' ', ' ', ' ']
+
+   [' ', ' ', ' ', ' ', ' ', ' ', ' ']
+
+   [' ', ' ', ' ', ' ', ' ', ' ', ' ']
+
+   [' ', ' ', ' ', ' ', ' ', ' ', ' ']
+
+   [' ', ' ', ' ', ' ', ' ', ' ', ' ']
+   ===================================
+
+   >>>
+   
+Of course, the above behavior only works if you have completed the assignment.
+
+There are a few aspects of the assignment, which you will not have seen when
+you ran help.
+
+For one thing, the docstring for "insert" mentioned a method named "_ok", but
+that method did not display in the help output. That is because "_ok" is a
+private method, which is only meant to be called by "insert". You can still
+read its docstring (even though it is private), by explicitly requesting it:
+   >>> help(connect4._ok)
+
+For another thing, the end of the connect4.py file has some comments that are
+not inside of docstrings (and so they were not seen by the help command. Here,
+therefore, are the last 16 lines of the connect4.py file:
+
+# The next line should create the "B" attribute, initialized to an empty board:
+# B=...
+#
+# The remaining lines are for regression testing. This is the one place I will
+# allow the use of an if-statement. The reason I allow it here is because this
+# specific case was actually already covered, on slide #95 of Lecture 4. Follow
+# that slide's syntax for the if-statement. But the body of your regression
+# test will be different than on that slide. On that slide, the body was a call
+# to doRegressTest(), but in the code below, the body will be three parts:
+# First, a line to import the random number function that we saw makeAmove()
+# using, above. Second, 16 calls to makeAmove(). Third, a call to printBoard().
+# remember that every line of the body must be indented under the if-statement.
+#if...
+#    from...
+#    makeAmove() x 16
+#    printBoard()
+
+As you can see, you also need to fill in the ... parts, above.

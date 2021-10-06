@@ -1,0 +1,98 @@
+⚫ places into column 1.
+⚫ places into column 1.
+⚫ places into column 1.
+⚪ places into column 1.
+⚫ places into column 7.
+⚪ places into column 7.
+⚪ places into column 7.
+⚫ places into column 7.
+⚫ places into column 7.
+┌──┬──┬──┬──┬──┬──┬──┐
+|  |  |  |  |  |  |  |
+├──┼──┼──┼──┼──┼──┼──┤
+|  |  |  |  |  |  |⚫|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚪|  |  |  |  |  |⚫|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚫|  |  |  |  |  |⚪|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚫|  |  |  |  |  |⚪|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚫|  |  |  |  |  |⚫|
+└──┴──┴──┴──┴──┴──┴──┘
+7 in b:  True
+⚫ places into column 7.
+┌──┬──┬──┬──┬──┬──┬──┐
+|  |  |  |  |  |  |⚫|
+├──┼──┼──┼──┼──┼──┼──┤
+|  |  |  |  |  |  |⚫|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚪|  |  |  |  |  |⚫|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚫|  |  |  |  |  |⚪|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚫|  |  |  |  |  |⚪|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚫|  |  |  |  |  |⚫|
+└──┴──┴──┴──┴──┴──┴──┘
+7 in b:  False
+⚫ places into column 2.
+⚪ places into column 3.
+⚫ places into column 4.
+⚪ places into column 5.
+⚫ places into column 6.
+⚪ places into column 2.
+⚪ places into column 3.
+⚪ places into column 4.
+⚪ places into column 5.
+⚪ places into column 6.
+⚪ places into column 2.
+⚪ places into column 3.
+⚪ places into column 4.
+⚪ places into column 5.
+⚪ places into column 6.
+⚫ places into column 2.
+⚫ places into column 3.
+⚫ places into column 4.
+⚫ places into column 5.
+⚫ places into column 6.
+┌──┬──┬──┬──┬──┬──┬──┐
+|  |  |  |  |  |  |⚫|
+├──┼──┼──┼──┼──┼──┼──┤
+|  |  |  |  |  |  |⚫|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚪|⚫|⚫|⚫|⚫|⚫|⚫|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚫|⚪|⚪|⚪|⚪|⚪|⚪|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚫|⚪|⚪|⚪|⚪|⚪|⚪|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚫|⚫|⚪|⚫|⚪|⚫|⚫|
+└──┴──┴──┴──┴──┴──┴──┘
+⚪ places into column 1.
+⚫ places into column 4.
+⚪ places into column 4.
+⚫ places into column 1.
+⚪ places into column 5.
+⚫ places into column 3.
+⚪ places into column 3.
+⚫ places into column 6.
+⚪ places into column 6.
+⚫ places into column 5.
+⚪ places into column 2.
+⚫ places into column 2.
+Board's full, so ⚪ can't randomly place.
+Board's full, so ⚪ can't randomly place.
+┌──┬──┬──┬──┬──┬──┬──┐
+|⚫|⚫|⚪|⚪|⚫|⚪|⚫|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚪|⚪|⚫|⚫|⚪|⚫|⚫|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚪|⚫|⚫|⚫|⚫|⚫|⚫|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚫|⚪|⚪|⚪|⚪|⚪|⚪|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚫|⚪|⚪|⚪|⚪|⚪|⚪|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚫|⚫|⚪|⚫|⚪|⚫|⚫|
+└──┴──┴──┴──┴──┴──┴──┘

@@ -1,0 +1,83 @@
+⚫ places into column 1.
+⚫ places into column 1.
+⚫ places into column 1.
+⚪ places into column 1.
+⚫ places into column 7.
+⚪ places into column 7.
+⚪ places into column 7.
+⚫ places into column 7.
+⚫ places into column 7.
+⚪ places into column 7.
+┌──┬──┬──┬──┬──┬──┬──┐
+|  |  |  |  |  |  |⚪|
+├──┼──┼──┼──┼──┼──┼──┤
+|  |  |  |  |  |  |⚫|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚪|  |  |  |  |  |⚫|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚫|  |  |  |  |  |⚪|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚫|  |  |  |  |  |⚪|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚫|  |  |  |  |  |⚫|
+└──┴──┴──┴──┴──┴──┴──┘
+⚫ places into column 2.
+⚪ places into column 3.
+⚫ places into column 4.
+⚪ places into column 5.
+⚫ places into column 6.
+⚪ places into column 2.
+⚪ places into column 3.
+⚪ places into column 4.
+⚪ places into column 5.
+⚪ places into column 6.
+⚪ places into column 2.
+⚪ places into column 3.
+⚪ places into column 4.
+⚪ places into column 5.
+⚪ places into column 6.
+⚫ places into column 2.
+⚫ places into column 3.
+⚫ places into column 4.
+⚫ places into column 5.
+⚫ places into column 6.
+┌──┬──┬──┬──┬──┬──┬──┐
+|  |  |  |  |  |  |⚪|
+├──┼──┼──┼──┼──┼──┼──┤
+|  |  |  |  |  |  |⚫|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚪|⚫|⚫|⚫|⚫|⚫|⚫|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚫|⚪|⚪|⚪|⚪|⚪|⚪|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚫|⚪|⚪|⚪|⚪|⚪|⚪|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚫|⚫|⚪|⚫|⚪|⚫|⚫|
+└──┴──┴──┴──┴──┴──┴──┘
+Wrapper: ⚪ places into column 2.
+⚫ places into column 1.
+⚪ places into column 2.
+⚫ places into column 5.
+⚪ places into column 5.
+⚫ places into column 4.
+⚪ places into column 3.
+⚫ places into column 4.
+⚪ places into column 1.
+⚫ places into column 6.
+⚪ places into column 6.
+⚫ places into column 3.
+The board is full, so ⚪ cannot randomly place.
+The board is full, so ⚪ cannot randomly place.
+┌──┬──┬──┬──┬──┬──┬──┐
+|⚪|⚪|⚫|⚫|⚪|⚪|⚪|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚫|⚪|⚪|⚫|⚫|⚫|⚫|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚪|⚫|⚫|⚫|⚫|⚫|⚫|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚫|⚪|⚪|⚪|⚪|⚪|⚪|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚫|⚪|⚪|⚪|⚪|⚪|⚪|
+├──┼──┼──┼──┼──┼──┼──┤
+|⚫|⚫|⚪|⚫|⚪|⚫|⚫|
+└──┴──┴──┴──┴──┴──┴──┘

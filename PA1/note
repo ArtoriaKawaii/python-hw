@@ -1,0 +1,32 @@
+Here are some hints for the following assignment:​
+
+1. It uses one of the functions given back on slide #115.​
+=> sorted()
+2. It uses the slicing methods given on slides 31-34.​
+=> check!
+3. Solve the assignment by experimenting in interactive mode, before filling in the file.​
+=> check!
+4. If you get stuck on the 1st cmd string, try the 2nd one. The two answers are independent.​
+=> check!
+5. If you only get one of the two to work, comment out the other line when submitting your answer. 
+=> check!
+
+Answer
+1. "dormitory" => "dirtyroom"
+s[0]+s[4]+{s[2]/s[7]}+s[5]+s[8]+{s[7]/s[2]}+{s[1]+s[s[6]]}+s[3]
+
+p=sorted(s)=['d', 'i', 'm', 'o', 'o', 'r', 'r', 't', 'y']
+p[:2]+p[-3:]+p[-4:1:-1]
+
+cmd="p=_____;print(s,t,_____)"
+=> cmd=
+"p=sorted(s);print(s,t,p[:2]+p[-3:]+p[-4:1:-1])"
+
+2. "dirty room" => "dormitory"
+lack +, -, 1, 2, 9, :, [, ]
+
+"dormitory" = s[:1]+s[-2]+s[2]+s[9]+s[1]+s[1+2]+s[-2]+s[-2-2]+s[2+2]
+
+cmd=
+"p=s[:1]+s[-2]+s[2]+s[9]+s[1]+s[1+2]+s[-2]+s[-2-2]+s[2+2];print(s,t,p)"
+
